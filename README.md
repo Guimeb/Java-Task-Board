@@ -2,6 +2,8 @@
 
 Este é um projeto desenvolvido como parte do bootcamp **DecolaTech 2025**, utilizando a linguagem **Java**. O objetivo é aplicar conceitos aprendidos ao longo do programa em um projeto prático com foco em JPA, e conexões a bancos de dados.
 
+O projeto é um fork de [digitalinnovationone/board](https://github.com/digitalinnovationone/board) alterando o uso de MySQL para H2 Database habilitando facil visualização em localhost
+
 ## 🛠️ Tecnologias Utilizadas
 
 - Java JDK 17+
