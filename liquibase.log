@@ -1,41 +1,76 @@
-ago. 29, 2024 10:37:26 AM liquibase.changelog
-INFORMAÇÕES: Reading resource: db/changelog/migrations/db.changelog-202408191938.sql
-ago. 29, 2024 10:37:26 AM liquibase.changelog
-INFORMAÇÕES: Reading resource: db/changelog/migrations/db.changelog-202408210954.sql
-ago. 29, 2024 10:37:26 AM liquibase.changelog
-INFORMAÇÕES: Reading resource: db/changelog/migrations/db.changelog-202408211004.sql
-ago. 29, 2024 10:37:26 AM liquibase.changelog
-INFORMAÇÕES: Reading resource: db/changelog/migrations/db.changelog-202408211005.sql
-ago. 29, 2024 10:37:26 AM liquibase.changelog
-INFORMAÇÕES: Reading resource: db/changelog/migrations/db.changelog-202408281807.sql
-ago. 29, 2024 10:37:26 AM liquibase.changelog
-INFORMAÇÕES: Reading from board.DATABASECHANGELOG
-Database is up to date, no changesets to execute
-ago. 29, 2024 10:37:26 AM liquibase.changelog
-INFORMAÇÕES: Reading from board.DATABASECHANGELOG
+mar. 30, 2025 7:59:46 PM liquibase.database
+INFO: Set default schema name to PUBLIC
+mar. 30, 2025 7:59:46 PM liquibase.changelog
+INFO: Reading resource: db/changelog/migrations/db.changelog-202408191938.sql
+mar. 30, 2025 7:59:46 PM liquibase.changelog
+INFO: Reading resource: db/changelog/migrations/db.changelog-202408210954.sql
+mar. 30, 2025 7:59:46 PM liquibase.changelog
+INFO: Reading resource: db/changelog/migrations/db.changelog-202408211004.sql
+mar. 30, 2025 7:59:46 PM liquibase.changelog
+INFO: Reading resource: db/changelog/migrations/db.changelog-202408211005.sql
+mar. 30, 2025 7:59:46 PM liquibase.changelog
+INFO: Reading resource: db/changelog/migrations/db.changelog-202408281807.sql
+mar. 30, 2025 7:59:46 PM liquibase.changelog
+INFO: Creating database history table with name: PUBLIC.DATABASECHANGELOG
+mar. 30, 2025 7:59:46 PM liquibase.changelog
+INFO: Reading from PUBLIC.DATABASECHANGELOG
+mar. 30, 2025 7:59:46 PM liquibase.lockservice
+INFO: Successfully acquired change log lock
+mar. 30, 2025 7:59:46 PM liquibase.command
+INFO: Using deploymentId: 3375586875
+mar. 30, 2025 7:59:46 PM liquibase.changelog
+INFO: Reading from PUBLIC.DATABASECHANGELOG
+Running Changeset: db/changelog/migrations/db.changelog-202408191938.sql::202408191938::junior
+mar. 30, 2025 7:59:46 PM liquibase.changelog
+INFO: Custom SQL executed
+mar. 30, 2025 7:59:46 PM liquibase.changelog
+INFO: ChangeSet db/changelog/migrations/db.changelog-202408191938.sql::202408191938::junior ran successfully in 73ms
+Running Changeset: db/changelog/migrations/db.changelog-202408210954.sql::202408191938::junior
+mar. 30, 2025 7:59:47 PM liquibase.changelog
+INFO: Custom SQL executed
+mar. 30, 2025 7:59:47 PM liquibase.changelog
+INFO: ChangeSet db/changelog/migrations/db.changelog-202408210954.sql::202408191938::junior ran successfully in 20ms
+Running Changeset: db/changelog/migrations/db.changelog-202408211004.sql::202408191938::junior
+mar. 30, 2025 7:59:47 PM liquibase.changelog
+INFO: Custom SQL executed
+mar. 30, 2025 7:59:47 PM liquibase.changelog
+INFO: ChangeSet db/changelog/migrations/db.changelog-202408211004.sql::202408191938::junior ran successfully in 9ms
+Running Changeset: db/changelog/migrations/db.changelog-202408211005.sql::202408191938::junior
+mar. 30, 2025 7:59:47 PM liquibase.changelog
+INFO: Custom SQL executed
+mar. 30, 2025 7:59:47 PM liquibase.changelog
+INFO: ChangeSet db/changelog/migrations/db.changelog-202408211005.sql::202408191938::junior ran successfully in 9ms
+Running Changeset: db/changelog/migrations/db.changelog-202408281807.sql::202408191938::junior
+mar. 30, 2025 7:59:47 PM liquibase.changelog
+INFO: Custom SQL executed
+mar. 30, 2025 7:59:47 PM liquibase.changelog
+INFO: ChangeSet db/changelog/migrations/db.changelog-202408281807.sql::202408191938::junior ran successfully in 4ms
 
 UPDATE SUMMARY
-Run:                          0
-Previously run:               5
+Run:                          5
+Previously run:               0
 Filtered out:                 0
 -------------------------------
 Total change sets:            5
 
-ago. 29, 2024 10:37:26 AM liquibase.util
-INFORMAÇÕES: UPDATE SUMMARY
-ago. 29, 2024 10:37:26 AM liquibase.util
-INFORMAÇÕES: Run:                          0
-ago. 29, 2024 10:37:26 AM liquibase.util
-INFORMAÇÕES: Previously run:               5
-ago. 29, 2024 10:37:26 AM liquibase.util
-INFORMAÇÕES: Filtered out:                 0
-ago. 29, 2024 10:37:26 AM liquibase.util
-INFORMAÇÕES: -------------------------------
-ago. 29, 2024 10:37:26 AM liquibase.util
-INFORMAÇÕES: Total change sets:            5
-ago. 29, 2024 10:37:26 AM liquibase.util
-INFORMAÇÕES: Update summary generated
-ago. 29, 2024 10:37:26 AM liquibase.lockservice
-INFORMAÇÕES: Successfully released change log lock
-ago. 29, 2024 10:37:26 AM liquibase.command
-INFORMAÇÕES: Command execution complete
+mar. 30, 2025 7:59:47 PM liquibase.util
+INFO: UPDATE SUMMARY
+mar. 30, 2025 7:59:47 PM liquibase.util
+INFO: Run:                          5
+mar. 30, 2025 7:59:47 PM liquibase.util
+INFO: Previously run:               0
+mar. 30, 2025 7:59:47 PM liquibase.util
+INFO: Filtered out:                 0
+mar. 30, 2025 7:59:47 PM liquibase.util
+INFO: -------------------------------
+mar. 30, 2025 7:59:47 PM liquibase.util
+INFO: Total change sets:            5
+mar. 30, 2025 7:59:47 PM liquibase.util
+INFO: Update summary generated
+mar. 30, 2025 7:59:47 PM liquibase.command
+INFO: Update command completed successfully.
+Liquibase: Update has been successful. Rows affected: 5
+mar. 30, 2025 7:59:47 PM liquibase.lockservice
+INFO: Successfully released change log lock
+mar. 30, 2025 7:59:47 PM liquibase.command
+INFO: Command execution complete
